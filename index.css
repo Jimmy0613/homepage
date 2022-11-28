@@ -1,0 +1,48 @@
+body {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#loginbox{
+    background-color:cornsilk;
+    width: 200px;
+    height:100px;
+    box-shadow: 5px 5px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 130px 70px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#login {
+    font-size: 16px;
+    margin-left: 20px;
+}
+#id, #pw {
+    width: 100px;
+}
+
+#btn {
+    width: 70px;
+    height: 100px;
+    display: grid;
+    grid-template-rows: 50px 50px;
+    align-items: center;
+    justify-content: center;
+}
+#loginbutton {
+    width: 70px;
+    height: 30px;
+    margin-top:10px;
+
+}
+
+#joinbutton {
+    width: 70px;
+    height: 30px;
+    margin:auto;
+
+}
