@@ -5,7 +5,17 @@ body {
     justify-content: center;
 
 }
+.box {
+    background-color: black;
+    width: 500px;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 30px 100px;
+    align-items: center;
+    justify-content: center;
+}
 #loginbox{
+    margin:auto;
     background-color:cornsilk;
     width: 200px;
     height:100px;
@@ -34,15 +44,25 @@ body {
     justify-content: center;
 }
 #loginbutton {
-    width: 70px;
+    width: 65px;
     height: 30px;
     margin-top:10px;
 
 }
 
 #joinbutton {
-    width: 70px;
+    width: 65px;
     height: 30px;
     margin:auto;
 
+}
+
+#time { 
+    width: 400px;
+    height: 20px;
+    background-color: lightcoral;
+    border: 2px hotpink solid;
+    border-radius: 4px;
+    text-align: center;
+    color: lightcyan;
 }
